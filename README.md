@@ -1,22 +1,6 @@
----
-language: en
-license: mit
-library_name: pytorch
-tags:
-- text-generation
-- gpt
-- transformers
-- language-model
-- alice-in-wonderland
-- literature
-datasets:
-- alice-in-wonderland
-metrics:
-- perplexity
-pipeline_tag: text-generation
----
+# FirstGPTFromScratch
 
-# 1st Demo GPT Based Architecture Model
+A custom GPT (Generative Pre-trained Transformer) implementation built from scratch and trained on Lewis Carroll's "Alice's Adventures in Wonderland".
 
 ## Model Description
 
@@ -151,10 +135,43 @@ If you use this model, please cite:
 
 This model is released under the MIT License. The training data (Alice's Adventures in Wonderland) is in the public domain.
 
+## 🚀 Quick Start
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/GruheshKurra/FirstGPTFromScratch.git
+   cd FirstGPTFromScratch
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install torch numpy matplotlib jupyter
+   ```
+
+3. **Run the training notebook**:
+   ```bash
+   jupyter notebook Notebook1.ipynb
+   ```
+
+4. **Download trained models** from [Hugging Face](https://huggingface.co/karthik-2905/1st_Demo_GPT_Based_Architecture_Model)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔗 Related Links
+
+- **Hugging Face Model**: [karthik-2905/1st_Demo_GPT_Based_Architecture_Model](https://huggingface.co/karthik-2905/1st_Demo_GPT_Based_Architecture_Model)
+- **Training Dataset**: Alice's Adventures in Wonderland (Public Domain)
+
 ## Contact
 
-For questions or issues, please open an issue in this repository or contact the model author.
+For questions or issues, please open an issue in this repository.
 
 ---
 
-*This model was created as a learning exercise to demonstrate GPT architecture implementation and training on classic literature.* 
+*This project was created as a learning exercise to demonstrate GPT architecture implementation and training from scratch on classic literature.* 
